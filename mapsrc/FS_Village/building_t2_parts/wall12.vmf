@@ -1,0 +1,211 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "4715"
+	"mapversion" "13"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "1"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "13"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+	group
+	{
+		"id" "28"
+		editor
+		{
+			"color" "220 220 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "9"
+	"classname" "propper_skins"
+	"mat0" "plaster/plasterwall039c"
+	"mat1" "plaster/plasterwall044b"
+	"mat10" "plaster/plasterwall016a"
+	"mat11" "plaster/plasterwallpaper004a"
+	"mat2" "plaster/plasterwall041a"
+	"mat3" "plaster/plasterwallpaper001a_c17"
+	"mat4" "plaster/plasterwallpaper004a"
+	"mat5" "plaster/plasterwallpaper005a"
+	"mat6" "plaster/plasterwallpaper006a_c17"
+	"mat7" "jessev92/village/plasterwall039c"
+	"mat8" "plaster/plasterwall041a"
+	"mat9" "plaster/plasterwall044d"
+	"my_model" "type02_wall12"
+	"origin" "-132 -208 80"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "6"
+	"classname" "propper_skins"
+	"mat0" "plaster/plasterwall029b"
+	"mat1" "plaster/plasterwall013c"
+	"mat10" "plaster/plasterwall047b"
+	"mat11" "plaster/plasterwall049a"
+	"mat2" "plaster/plasterwall005c_c17"
+	"mat3" "plaster/plasterwall017c_c17"
+	"mat4" "plaster/plasterwall022c_c17"
+	"mat5" "plaster/plasterwall030c_c17"
+	"mat6" "plaster/plasterwall032c"
+	"mat7" "plaster/plasterwall034c"
+	"mat8" "plaster/plasterwall035c"
+	"mat9" "plaster/plasterwall042c_c17"
+	"my_model" "type02_wall12"
+	"origin" "-128 -200 24"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "29"
+	"classname" "propper_model"
+	"autocenter" "0"
+	"concave" "1"
+	"disp_nowarp" "0"
+	"mass" "500"
+	"mat_nonormal" "0"
+	"materialpath" "jessev92/village/"
+	"modelname" "jessev92/village/type02_wall12"
+	"origin" "164.48 -68 80"
+	"physmodel" "type02_wall12"
+	"scale" "1.0"
+	"smoothangle" "0"
+	"smoothing" "1"
+	"snaptogrid" "0"
+	"sourcefolder" "F:/0-SSDK/VMF/Propper"
+	"surfaceprop" "plaster"
+	"targetname" "type02_wall12"
+	"weldvertices" ".01"
+	connections
+	{
+		"OnBreak" "house2_math_main,Add,75,0,-1"
+	}
+	solid
+	{
+		"id" "30"
+		side
+		{
+			"id" "82"
+			"plane" "(168.48 -168 144) (160.48 -168 144) (160.48 32 144)"
+			"material" "PLASTER/PLASTERWALL037F"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 1 0 432] 0.25"
+			"rotation" "90"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "81"
+			"plane" "(160.48 32 16) (160.48 -168 16) (168.48 -168 16)"
+			"material" "PLASTER/PLASTERWALL037F"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 1 0 432] 0.25"
+			"rotation" "90"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "80"
+			"plane" "(168.48 -168 16) (160.48 -168 16) (160.48 -168 144)"
+			"material" "PLASTER/PLASTERWALL039C"
+			"uaxis" "[-1 0 0 145.922] 0.25"
+			"vaxis" "[0 0 -1 64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "79"
+			"plane" "(160.48 -168 16) (160.48 32 16) (160.48 32 144)"
+			"material" "PLASTER/PLASTERWALL039C"
+			"uaxis" "[0 1 0 136] 0.25"
+			"vaxis" "[0 0 -1 64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "78"
+			"plane" "(168.48 32 16) (168.48 -168 16) (168.48 -168 144)"
+			"material" "PLASTER/PLASTERWALL039C"
+			"uaxis" "[0 1 0 136] 0.25"
+			"vaxis" "[0 0 -1 64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "77"
+			"plane" "(160.48 32 16) (168.48 32 16) (168.48 32 144)"
+			"material" "PLASTER/PLASTERWALL039C"
+			"uaxis" "[-1 0 0 145.922] 0.25"
+			"vaxis" "[0 0 -1 64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 220 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "28"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 11500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordon
+{
+	"mins" "(-1024 -1024 -1024)"
+	"maxs" "(1024 1024 1024)"
+	"active" "0"
+}

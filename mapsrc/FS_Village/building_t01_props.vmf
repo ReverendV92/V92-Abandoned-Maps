@@ -1,0 +1,1633 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "6157"
+	"mapversion" "1"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "4"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "1"
+	"classname" "worldspawn"
+	"skyname" "sky_day01_01"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	group
+	{
+		"id" "1932"
+		editor
+		{
+			"color" "220 220 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "1933"
+	"classname" "math_counter"
+	"max" "200"
+	"skin" "2"
+	"targetname" "house1-1_math_main"
+	connections
+	{
+		"OnHitMax" "house1-1_floor,EnableMotion,,1.8,-1"
+		"OnHitMax" "house1-1_floor,DisableMotion,,15,-1"
+		"OnHitMax" "house1-1_walls,Break,,1.8,-1"
+		"OnHitMax" "house1-1_fall,PlaySound,,0,-1"
+		"OnHitMax" "house1-1_nodes,Kill,,1.6,-1"
+	}
+	"origin" "0 52 40"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 -9768]"
+	}
+}
+entity
+{
+	"id" "1935"
+	"classname" "ambient_generic"
+	"health" "10"
+	"message" "ambient/house_collapse.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"radius" "2048"
+	"skin" "2"
+	"spawnflags" "48"
+	"targetname" "house1-1_fall"
+	"volstart" "10"
+	"origin" "0 52 164"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 -9268]"
+	}
+}
+entity
+{
+	"id" "1938"
+	"classname" "ambient_generic"
+	"health" "10"
+	"message" "physics/metal/metal_solid_strain1.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"radius" "2048"
+	"skin" "2"
+	"spawnflags" "48"
+	"targetname" "house1_strain1"
+	"volstart" "10"
+	"origin" "128 92 164"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 -9268]"
+	}
+}
+entity
+{
+	"id" "1941"
+	"classname" "ambient_generic"
+	"health" "10"
+	"message" "physics/metal/metal_box_strain3.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"radius" "2048"
+	"skin" "2"
+	"spawnflags" "48"
+	"targetname" "house1-1_strain2"
+	"volstart" "10"
+	"origin" "-64 -4 164"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 -9268]"
+	}
+}
+entity
+{
+	"id" "1944"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disablevertexlighting" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"model" "models/jessev92/village/type01/floor01.mdl"
+	"screenspacefade" "0"
+	"skin" "2"
+	"solid" "6"
+	"origin" "-192 192 32"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1948"
+	"classname" "prop_physics_override"
+	"angles" "0 270 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "0"
+	"model" "models/jessev92/village/type01/floor02.mdl"
+	"nodamageforces" "0"
+	"PerformanceMode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"shadowcastdist" "0"
+	"skin" "2"
+	"spawnflags" "1675"
+	"targetname" "house1-1_floor"
+	"origin" "192 192 164"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1952"
+	"classname" "prop_physics_override"
+	"angles" "0 270 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"minhealthdmg" "0"
+	"model" "models/jessev92/village/type01/floor03.mdl"
+	"nodamageforces" "0"
+	"PerformanceMode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"shadowcastdist" "0"
+	"skin" "2"
+	"spawnflags" "1675"
+	"targetname" "house1-1_floor"
+	"origin" "68 192 164"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1956"
+	"classname" "prop_physics_override"
+	"angles" "0 270 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"minhealthdmg" "0"
+	"model" "models/jessev92/village/type01/floor04.mdl"
+	"nodamageforces" "0"
+	"PerformanceMode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"shadowcastdist" "0"
+	"skin" "2"
+	"spawnflags" "1675"
+	"targetname" "house1-1_floor"
+	"origin" "68 64 164"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1960"
+	"classname" "prop_physics_override"
+	"angles" "0 270 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"minhealthdmg" "0"
+	"model" "models/jessev92/village/type01/floor05.mdl"
+	"nodamageforces" "0"
+	"PerformanceMode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"shadowcastdist" "0"
+	"skin" "2"
+	"spawnflags" "1675"
+	"targetname" "house1-1_floor"
+	"origin" "-60 -64 164"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1964"
+	"classname" "prop_dynamic_override"
+	"angles" "0 270 0"
+	"damagefilter" "Explode_type"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"health" "120"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/jessev92/village/type01/stairs.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "2"
+	"solid" "6"
+	"spawnflags" "0"
+	"targetname" "house1-1_walls"
+	connections
+	{
+		"OnBreak" "house1-1_math_main,Add,25,0,-1"
+	}
+	"origin" "128 112 168"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1966"
+	"classname" "prop_physics_override"
+	"angles" "0 270 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"minhealthdmg" "0"
+	"model" "models/jessev92/village/type01/floor06.mdl"
+	"nodamageforces" "0"
+	"PerformanceMode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"shadowcastdist" "0"
+	"skin" "2"
+	"spawnflags" "1675"
+	"targetname" "house1-1_floor"
+	"origin" "60 192 300"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1970"
+	"classname" "prop_physics_override"
+	"angles" "0 270 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "0"
+	"model" "models/jessev92/village/type01/floor07.mdl"
+	"nodamageforces" "0"
+	"PerformanceMode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"shadowcastdist" "0"
+	"skin" "2"
+	"spawnflags" "1675"
+	"targetname" "house1-1_floor"
+	"origin" "192 192 300"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1974"
+	"classname" "prop_dynamic_override"
+	"angles" "0 270 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"health" "120"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/jessev92/village/type01/wall01.mdl"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "2"
+	"solid" "6"
+	"spawnflags" "0"
+	"targetname" "house1-1_walls"
+	connections
+	{
+		"OnBreak" "house1-1_math_main,Add,25,0,-1"
+	}
+	"origin" "-184 -184 96"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1976"
+	"classname" "prop_dynamic_override"
+	"angles" "0 270 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"health" "120"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/jessev92/village/type01/wall02.mdl"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "2"
+	"solid" "6"
+	"spawnflags" "0"
+	"targetname" "house1-1_walls"
+	connections
+	{
+		"OnBreak" "house1-1_math_main,Add,25,0,-1"
+	}
+	"origin" "-68 -184 96"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1978"
+	"classname" "prop_dynamic_override"
+	"angles" "0 270 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"health" "120"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/jessev92/village/type01/wall03.mdl"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "2"
+	"solid" "6"
+	"spawnflags" "0"
+	"targetname" "house1-1_walls"
+	connections
+	{
+		"OnBreak" "house1-1_math_main,Add,25,0,-1"
+	}
+	"origin" "-56 -56 96"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1980"
+	"classname" "prop_dynamic_override"
+	"angles" "0 270 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"health" "120"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/jessev92/village/type01/wall04.mdl"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "2"
+	"solid" "6"
+	"spawnflags" "0"
+	"targetname" "house1-1_walls"
+	connections
+	{
+		"OnBreak" "house1-1_math_main,Add,25,0,-1"
+	}
+	"origin" "184 -56 96"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1982"
+	"classname" "prop_dynamic_override"
+	"angles" "0 270 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"health" "120"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/jessev92/village/type01/wall05.mdl"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "2"
+	"solid" "6"
+	"spawnflags" "0"
+	"targetname" "house1-1_walls"
+	connections
+	{
+		"OnBreak" "house1-1_math_main,Add,25,0,-1"
+	}
+	"origin" "60 192 96"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1984"
+	"classname" "prop_dynamic_override"
+	"angles" "0 270 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"health" "120"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/jessev92/village/type01/wall06.mdl"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "2"
+	"solid" "6"
+	"spawnflags" "0"
+	"targetname" "house1-1_walls"
+	connections
+	{
+		"OnBreak" "house1-1_math_main,Add,25,0,-1"
+	}
+	"origin" "-184 192 96"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1986"
+	"classname" "prop_dynamic_override"
+	"angles" "0 270 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"health" "120"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/jessev92/village/type01/wall09.mdl"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "2"
+	"solid" "6"
+	"spawnflags" "0"
+	"targetname" "house1-1_walls"
+	connections
+	{
+		"OnBreak" "house1-1_math_main,Add,25,0,-1"
+	}
+	"origin" "68 -56 232"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1988"
+	"classname" "prop_dynamic_override"
+	"angles" "0 270 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"health" "120"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/jessev92/village/type01/wall08.mdl"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "2"
+	"solid" "6"
+	"spawnflags" "0"
+	"targetname" "house1-1_walls"
+	connections
+	{
+		"OnBreak" "house1-1_math_main,Add,25,0,-1"
+	}
+	"origin" "-184 -184 96"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1990"
+	"classname" "prop_dynamic_override"
+	"angles" "0 270 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"health" "120"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/jessev92/village/type01/wall10.mdl"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "2"
+	"solid" "6"
+	"spawnflags" "0"
+	"targetname" "house1-1_walls"
+	connections
+	{
+		"OnBreak" "house1-1_math_main,Add,25,0,-1"
+	}
+	"origin" "184 -56 232"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1992"
+	"classname" "prop_dynamic_override"
+	"angles" "0 270 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"health" "120"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/jessev92/village/type01/wall11.mdl"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "2"
+	"solid" "6"
+	"spawnflags" "0"
+	"targetname" "house1-1_walls"
+	connections
+	{
+		"OnBreak" "house1-1_math_main,Add,25,0,-1"
+	}
+	"origin" "184 184 232"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1994"
+	"classname" "prop_dynamic_override"
+	"angles" "0 270 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"health" "120"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/jessev92/village/type01/wall12.mdl"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "2"
+	"solid" "6"
+	"spawnflags" "0"
+	"targetname" "house1-1_walls"
+	connections
+	{
+		"OnBreak" "house1-1_math_main,Add,25,0,-1"
+	}
+	"origin" "60 184 232"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1996"
+	"classname" "prop_dynamic_override"
+	"angles" "0 270 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"health" "120"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/jessev92/village/type01/wall13.mdl"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "2"
+	"solid" "6"
+	"spawnflags" "0"
+	"targetname" "house1-1_walls"
+	connections
+	{
+		"OnBreak" "house1-1_math_main,Add,25,0,-1"
+	}
+	"origin" "-184 64 232"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1998"
+	"classname" "prop_dynamic_override"
+	"angles" "0 270 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"health" "120"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/jessev92/village/type01/wall14.mdl"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "2"
+	"solid" "6"
+	"spawnflags" "0"
+	"targetname" "house1-1_walls"
+	connections
+	{
+		"OnBreak" "house1-1_math_main,Add,25,0,-1"
+	}
+	"origin" "-184 64 232"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2000"
+	"classname" "prop_dynamic_override"
+	"angles" "0 270 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"health" "120"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/jessev92/village/type01/wall16.mdl"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "2"
+	"solid" "6"
+	"spawnflags" "0"
+	"targetname" "house1-1_walls"
+	connections
+	{
+		"OnBreak" "house1-1_math_main,Add,25,0,-1"
+	}
+	"origin" "-192 56 188"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2002"
+	"classname" "prop_dynamic_override"
+	"angles" "0 270 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"health" "120"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/jessev92/village/type01/wall17.mdl"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "2"
+	"solid" "6"
+	"spawnflags" "0"
+	"targetname" "house1-1_walls"
+	connections
+	{
+		"OnBreak" "house1-1_math_main,Add,25,0,-1"
+	}
+	"origin" "-192 -56 188"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2004"
+	"classname" "prop_dynamic_override"
+	"angles" "0 270 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"health" "120"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/jessev92/village/type01/wall18.mdl"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "2"
+	"solid" "6"
+	"spawnflags" "0"
+	"targetname" "house1-1_walls"
+	connections
+	{
+		"OnBreak" "house1-1_math_main,Add,25,0,-1"
+	}
+	"origin" "-192 -184 188"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2006"
+	"classname" "prop_dynamic_override"
+	"angles" "0 270 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"health" "120"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/jessev92/village/type01/wall19.mdl"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "2"
+	"solid" "6"
+	"spawnflags" "0"
+	"targetname" "house1-1_walls"
+	connections
+	{
+		"OnBreak" "house1-1_math_main,Add,25,0,-1"
+	}
+	"origin" "-68 -184 188"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2008"
+	"classname" "prop_dynamic_override"
+	"angles" "0 270 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"health" "120"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/jessev92/village/type01/wall20.mdl"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "2"
+	"solid" "6"
+	"spawnflags" "0"
+	"targetname" "house1-1_walls"
+	connections
+	{
+		"OnBreak" "house1-1_math_main,Add,25,0,-1"
+	}
+	"origin" "60 -56 188"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2010"
+	"classname" "prop_dynamic_override"
+	"angles" "0 270 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"health" "120"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/jessev92/village/type01/wall07.mdl"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "2"
+	"solid" "6"
+	"spawnflags" "0"
+	"targetname" "house1-1_walls"
+	connections
+	{
+		"OnBreak" "house1-1_math_main,Add,25,0,-1"
+	}
+	"origin" "-184 184 96"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2012"
+	"classname" "prop_dynamic_override"
+	"angles" "0 270 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"health" "120"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/jessev92/village/type01/wall15.mdl"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "2"
+	"solid" "6"
+	"spawnflags" "0"
+	"targetname" "house1-1_walls"
+	connections
+	{
+		"OnBreak" "house1-1_math_main,Add,25,0,-1"
+	}
+	"origin" "60 56 232"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2014"
+	"classname" "prop_physics_override"
+	"angles" "0 270 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"minhealthdmg" "0"
+	"model" "models/jessev92/village/type01/post01.mdl"
+	"nodamageforces" "0"
+	"PerformanceMode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"shadowcastdist" "0"
+	"skin" "2"
+	"spawnflags" "1675"
+	"targetname" "house1-1_floor"
+	"origin" "-60 -192 96"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2018"
+	"classname" "prop_physics_override"
+	"angles" "0 270 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"minhealthdmg" "0"
+	"model" "models/jessev92/village/type01/post06.mdl"
+	"nodamageforces" "0"
+	"PerformanceMode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"shadowcastdist" "0"
+	"skin" "2"
+	"spawnflags" "1675"
+	"targetname" "house1-1_floor"
+	"origin" "-192 -192 96"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2022"
+	"classname" "prop_physics_override"
+	"angles" "0 270 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"minhealthdmg" "0"
+	"model" "models/jessev92/village/type01/post08.mdl"
+	"nodamageforces" "0"
+	"PerformanceMode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"shadowcastdist" "0"
+	"skin" "2"
+	"spawnflags" "1675"
+	"targetname" "house1-1_floor"
+	"origin" "192 -64 232"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2026"
+	"classname" "prop_physics_override"
+	"angles" "0 270 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"minhealthdmg" "0"
+	"model" "models/jessev92/village/type01/post03.mdl"
+	"nodamageforces" "0"
+	"PerformanceMode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"shadowcastdist" "0"
+	"skin" "2"
+	"spawnflags" "1675"
+	"targetname" "house1-1_floor"
+	"origin" "192 -64 96"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2030"
+	"classname" "prop_physics_override"
+	"angles" "0 270 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"minhealthdmg" "0"
+	"model" "models/jessev92/village/type01/post02.mdl"
+	"nodamageforces" "0"
+	"PerformanceMode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"shadowcastdist" "0"
+	"skin" "2"
+	"spawnflags" "1675"
+	"targetname" "house1-1_floor"
+	"origin" "-68 -56 96"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2034"
+	"classname" "prop_physics_override"
+	"angles" "0 270 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"minhealthdmg" "0"
+	"model" "models/jessev92/village/type01/post07.mdl"
+	"nodamageforces" "0"
+	"PerformanceMode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"shadowcastdist" "0"
+	"skin" "2"
+	"spawnflags" "1675"
+	"targetname" "house1-1_floor"
+	"origin" "60 -64 232"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2038"
+	"classname" "prop_physics_override"
+	"angles" "0 270 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"minhealthdmg" "0"
+	"model" "models/jessev92/village/type01/post09.mdl"
+	"nodamageforces" "0"
+	"PerformanceMode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"shadowcastdist" "0"
+	"skin" "2"
+	"spawnflags" "1675"
+	"targetname" "house1-1_floor"
+	"origin" "192 192 232"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2042"
+	"classname" "prop_physics_override"
+	"angles" "0 270 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"minhealthdmg" "0"
+	"model" "models/jessev92/village/type01/post04.mdl"
+	"nodamageforces" "0"
+	"PerformanceMode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"shadowcastdist" "0"
+	"skin" "2"
+	"spawnflags" "1675"
+	"targetname" "house1-1_floor"
+	"origin" "192 192 96"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2046"
+	"classname" "prop_physics_override"
+	"angles" "0 270 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"minhealthdmg" "0"
+	"model" "models/jessev92/village/type01/post10.mdl"
+	"nodamageforces" "0"
+	"PerformanceMode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"shadowcastdist" "0"
+	"skin" "2"
+	"spawnflags" "1675"
+	"targetname" "house1-1_floor"
+	"origin" "-192 192 232"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2050"
+	"classname" "prop_physics_override"
+	"angles" "0 270 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"minhealthdmg" "0"
+	"model" "models/jessev92/village/type01/post05.mdl"
+	"nodamageforces" "0"
+	"PerformanceMode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"shadowcastdist" "0"
+	"skin" "2"
+	"spawnflags" "1675"
+	"targetname" "house1-1_floor"
+	"origin" "-192 192 96"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2054"
+	"classname" "prop_physics_override"
+	"angles" "0 270 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"minhealthdmg" "0"
+	"model" "models/jessev92/village/type01/post11.mdl"
+	"nodamageforces" "0"
+	"PerformanceMode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"shadowcastdist" "0"
+	"skin" "2"
+	"spawnflags" "1675"
+	"targetname" "house1-1_floor"
+	"origin" "-192 56 232"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2058"
+	"classname" "prop_physics_override"
+	"angles" "0 270 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"minhealthdmg" "0"
+	"model" "models/jessev92/village/type01/post12.mdl"
+	"nodamageforces" "0"
+	"PerformanceMode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"shadowcastdist" "0"
+	"skin" "2"
+	"spawnflags" "1675"
+	"targetname" "house1-1_floor"
+	"origin" "68 64 232"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1932"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordon
+{
+	"mins" "(-1024 -1024 -1024)"
+	"maxs" "(1024 1024 1024)"
+	"active" "0"
+}

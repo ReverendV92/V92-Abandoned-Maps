@@ -1,0 +1,296 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "4715"
+	"mapversion" "4"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "64"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "4"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+}
+entity
+{
+	"id" "8"
+	"classname" "propper_model"
+	"autocenter" "1"
+	"concave" "1"
+	"disp_nowarp" "0"
+	"mass" "500"
+	"mat_nonormal" "0"
+	"materialpath" "jessev92/village/"
+	"modelname" "jessev92/village/small_floor03"
+	"origin" "-62 128 148"
+	"physmodel" "small_floor03"
+	"scale" "1.0"
+	"smoothangle" "0"
+	"smoothing" "1"
+	"snaptogrid" "0"
+	"sourcefolder" "F:/0-SSDK/VMF/Propper"
+	"surfaceprop" "wood"
+	"targetname" "small_floor03"
+	"weldvertices" ".01"
+	solid
+	{
+		"id" "9"
+		side
+		{
+			"id" "76"
+			"plane" "(-128 112 152) (-192 112 152) (-192 176 152)"
+			"material" "WOOD/WOODFLOOR005A"
+			"uaxis" "[0 1 0 -16] 0.25"
+			"vaxis" "[1 0 0 -448] 0.25"
+			"rotation" "90"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "75"
+			"plane" "(-128 176 144) (-192 176 144) (-192 112 144)"
+			"material" "PLASTER/PLASTERCEILING008A_C17"
+			"uaxis" "[1 0 0 -313] 0.25"
+			"vaxis" "[0 -1 0 -24] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "74"
+			"plane" "(-192 112 144) (-192 176 144) (-192 176 152)"
+			"material" "PLASTER/PLASTERWALL029B"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "73"
+			"plane" "(-128 112 144) (-192 112 144) (-192 112 152)"
+			"material" "PLASTER/PLASTERWALL037E"
+			"uaxis" "[1 0 0 0] 0.125"
+			"vaxis" "[0 0 -1 0] 0.125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "72"
+			"plane" "(-192 176 144) (-128 176 144) (-128 176 152)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "71"
+			"plane" "(-128 176 144) (-128 112 144) (-128 112 152)"
+			"material" "WOOD/WOODFLOOR005A"
+			"uaxis" "[0 0 1 -16] 0.25"
+			"vaxis" "[0 1 0 -128] 0.25"
+			"rotation" "90"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "10"
+		side
+		{
+			"id" "82"
+			"plane" "(68 64 152) (-192 64 152) (-192 112 152)"
+			"material" "WOOD/WOODFLOOR005A"
+			"uaxis" "[0 1 0 -16] 0.25"
+			"vaxis" "[1 0 0 -448] 0.25"
+			"rotation" "90"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "81"
+			"plane" "(-192 112 144) (-192 64 144) (68 64 144)"
+			"material" "PLASTER/PLASTERCEILING008A_C17"
+			"uaxis" "[1 0 0 -313] 0.25"
+			"vaxis" "[0 -1 0 -24] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "80"
+			"plane" "(-192 64 144) (-192 112 144) (-192 112 152)"
+			"material" "PLASTER/PLASTERWALL029B"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "79"
+			"plane" "(68 64 144) (-192 64 144) (-192 64 152)"
+			"material" "PLASTER/PLASTERWALL037E"
+			"uaxis" "[1 0 0 0] 0.125"
+			"vaxis" "[0 0 -1 0] 0.125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "78"
+			"plane" "(68 112 144) (68 64 144) (68 64 152)"
+			"material" "PLASTER/PLASTERWALL037E"
+			"uaxis" "[0 1 0 0] 0.125"
+			"vaxis" "[0 0 -1 0] 0.125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "77"
+			"plane" "(-192 112 144) (68 112 144) (68 112 152)"
+			"material" "WOOD/WOODFLOOR005A"
+			"uaxis" "[0 0 1 -16] 0.25"
+			"vaxis" "[1 0 0 -128] 0.25"
+			"rotation" "90"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "11"
+		side
+		{
+			"id" "88"
+			"plane" "(-192 176 152) (-192 192 152) (68 192 152)"
+			"material" "WOOD/WOODFLOOR005A"
+			"uaxis" "[0 1 0 -16] 0.25"
+			"vaxis" "[1 0 0 -448] 0.25"
+			"rotation" "90"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "87"
+			"plane" "(68 192 144) (-192 192 144) (-192 176 144)"
+			"material" "PLASTER/PLASTERCEILING008A_C17"
+			"uaxis" "[1 0 0 -313] 0.25"
+			"vaxis" "[0 -1 0 -24] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "86"
+			"plane" "(-192 176 144) (-192 192 144) (-192 192 152)"
+			"material" "PLASTER/PLASTERWALL029B"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "85"
+			"plane" "(-192 192 144) (68 192 144) (68 192 152)"
+			"material" "PLASTER/PLASTERWALL029B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "84"
+			"plane" "(68 192 144) (68 176 144) (68 176 152)"
+			"material" "PLASTER/PLASTERWALL037E"
+			"uaxis" "[0 1 0 -135.385] 0.13"
+			"vaxis" "[0 0 -1 18.4617] 0.13"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "83"
+			"plane" "(68 176 144) (-192 176 144) (-192 176 152)"
+			"material" "WOOD/WOODFLOOR005A"
+			"uaxis" "[0 0 1 -16] 0.25"
+			"vaxis" "[1 0 0 -128] 0.25"
+			"rotation" "90"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -8268]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordon
+{
+	"mins" "(-1024 -1024 -1024)"
+	"maxs" "(1024 1024 1024)"
+	"active" "0"
+}
