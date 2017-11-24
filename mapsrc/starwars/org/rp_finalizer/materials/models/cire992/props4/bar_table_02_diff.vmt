@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\cire992\props4\Bar_Table_02_diff"
+        	"$bumpmap" "models\cire992\props4\Bar_Table_02_Norm"
+	"$model" "1"
+	"$halflambert" 1
+//	"$selfillum" 1
+
+	"$phong" "1"
+	"$phongexponent" 2
+	"$phongboost"	".08"
+//	"$phongexponent "5"
+	"$phongfresnelranges"	"[1 1 10]"
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "12"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" ".2"	
+}
