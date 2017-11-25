@@ -1,0 +1,323 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "6104"
+	"mapversion" "2"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "1"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "2"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+}
+entity
+{
+	"id" "128"
+	"classname" "logic_case"
+	"hammerid" "3297422"
+	"targetname" "musicselect"
+	connections
+	{
+		"OnCase01" "title,PlaySound,,0.1,-1"
+		"OnCase02" "overture,PlaySound,,0.1,-1"
+		"OnCase03" "toysinspace,PlaySound,,0.1,-1"
+		"OnCase04" "rtsthemermx,PlaySound,,0.1,-1"
+		"OnCase05" "bootcamp,PlaySound,,0.1,-1"
+	}
+	"origin" "64 -16 56"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-15268 -6268]"
+	}
+}
+entity
+{
+	"id" "130"
+	"classname" "ambient_generic"
+	"hammerid" "3297436"
+	"health" "10"
+	"message" "jessev92/armymen/bootcamp.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"radius" "1024"
+	"SourceEntityName" "musicradio"
+	"spawnflags" "16"
+	"targetname" "bootcamp"
+	"origin" "64 -32 120"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-15268 -3768]"
+	}
+}
+entity
+{
+	"id" "133"
+	"classname" "ambient_generic"
+	"hammerid" "3297433"
+	"health" "10"
+	"message" "jessev92/armymen/rtsthemermx.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"radius" "1024"
+	"SourceEntityName" "musicradio"
+	"spawnflags" "16"
+	"targetname" "rtsthemermx"
+	"origin" "64 -32 104"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-15268 -4268]"
+	}
+}
+entity
+{
+	"id" "136"
+	"classname" "ambient_generic"
+	"hammerid" "3297430"
+	"health" "10"
+	"message" "jessev92/armymen/toysinspace.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"radius" "1024"
+	"SourceEntityName" "musicradio"
+	"spawnflags" "16"
+	"targetname" "toysinspace"
+	"origin" "64 -32 88"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-15268 -4768]"
+	}
+}
+entity
+{
+	"id" "139"
+	"classname" "ambient_generic"
+	"hammerid" "3297427"
+	"health" "10"
+	"message" "jessev92/armymen/overture.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"radius" "1024"
+	"SourceEntityName" "musicradio"
+	"spawnflags" "16"
+	"targetname" "overture"
+	"origin" "64 -32 72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-15268 -5268]"
+	}
+}
+entity
+{
+	"id" "142"
+	"classname" "ambient_generic"
+	"hammerid" "3297424"
+	"health" "10"
+	"message" "jessev92/armymen/title.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"radius" "1024"
+	"SourceEntityName" "musicradio"
+	"spawnflags" "16"
+	"targetname" "title"
+	"origin" "64 -32 56"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-15268 -5768]"
+	}
+}
+entity
+{
+	"id" "145"
+	"classname" "func_button"
+	"disablereceiveshadows" "0"
+	"hammerid" "3297328"
+	"health" "0"
+	"lip" "3"
+	"locked_sentence" "0"
+	"locked_sound" "0"
+	"movedir" "0 0 0"
+	"origin" "76 -24 39"
+	"parentname" "musicradio"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"sounds" "14"
+	"spawnflags" "1056"
+	"speed" "50"
+	"unlocked_sentence" "0"
+	"unlocked_sound" "0"
+	"wait" "-1"
+	connections
+	{
+		"OnIn" "musicselect,PickRandomShuffle,,0,-1"
+		"OnOut" "bootcamp,StopSound,,0,-1"
+		"OnOut" "overture,StopSound,,0,-1"
+		"OnOut" "rtsthemermx,StopSound,,0,-1"
+		"OnOut" "title,StopSound,,0,-1"
+		"OnOut" "toysinspace,StopSound,,0,-1"
+	}
+	solid
+	{
+		"id" "146"
+		side
+		{
+			"id" "30"
+			"plane" "(74 -36 46) (74 -36 32) (74 -12 32)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 56] 0.25"
+			"vaxis" "[0 0 -1 43] 0.25"
+			"rotation" "0"
+			"lightmapscale" "64"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "29"
+			"plane" "(78 -12 46) (78 -12 32) (78 -36 32)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 56] 0.25"
+			"vaxis" "[0 0 -1 43] 0.25"
+			"rotation" "0"
+			"lightmapscale" "64"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "28"
+			"plane" "(78 -36 46) (78 -36 32) (74 -36 32)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -32] 0.25"
+			"vaxis" "[0 0 -1 16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "64"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "27"
+			"plane" "(74 -12 46) (74 -12 32) (78 -12 32)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 32] 0.25"
+			"vaxis" "[0 0 -1 16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "64"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "26"
+			"plane" "(74 -12 32) (74 -36 32) (78 -36 32)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 8] 0.25"
+			"vaxis" "[-1 0 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "64"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "25"
+			"plane" "(74 -36 46) (74 -12 46) (78 -12 46)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 -8] 0.25"
+			"vaxis" "[-1 0 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "64"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-15268 -6768]"
+	}
+}
+entity
+{
+	"id" "168"
+	"classname" "prop_physics_override"
+	"angles" "0 0 0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "4500"
+	"fademindist" "3500"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_lab/citizenradio.mdl"
+	"nodamageforces" "0"
+	"PerformanceMode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"spawnflags" "0"
+	"targetname" "musicradio"
+	"origin" "64 -24 30"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-15268 -7268]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordon
+{
+	"mins" "(-1024 -1024 -1024)"
+	"maxs" "(1024 1024 1024)"
+	"active" "0"
+}
