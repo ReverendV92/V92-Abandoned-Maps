@@ -5,7 +5,7 @@ All of these maps have been sorted into per-project folders.
 
 I wrote a short text file in each one with a bit of backstory or what the project is and why it was shitcanned.
 
-If you use any part of it, through me a mention in the description and send me a link to it so I can take a look at it.
+If you use any part of it, throw me a mention in the description and send me a link to it so I can take a look at it.
 
 # License/Agreement/Legaleeze
 
