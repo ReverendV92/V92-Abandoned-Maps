@@ -1,0 +1,173 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "6412"
+	"mapversion" "5"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "1"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "5"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+}
+entity
+{
+	"id" "8"
+	"classname" "propper_model"
+	"autocenter" "0"
+	"concave" "1"
+	"disp_nowarp" "0"
+	"mass" "0.0"
+	"mat_nonormal" "0"
+	"materialpath" "models/jessev92/propper"
+	"modelname" "jessev92/propper/rat/rug01"
+	"origin" "0 0 0"
+	"physmodel" "self"
+	"scale" "1.0"
+	"smoothangle" "45"
+	"smoothing" "1"
+	"snaptogrid" "0"
+	"sourcefolder" "V:/assets/propper"
+	"surfaceprop" "carpet"
+	"targetname" "self"
+	"weldvertices" ".01"
+	solid
+	{
+		"id" "18"
+		side
+		{
+			"id" "18"
+			"plane" "(-2304 3072 0) (-2304 -3072 0) (2304 -3072 0)"
+			"material" "JESSEV92/REALWORLDTEXTURES2/GROUND/CARPET_16"
+			"uaxis" "[1 0 0 128] 4"
+			"vaxis" "[0 -1 0 64] 4"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "17"
+			"plane" "(-2304 -3072 0) (-2304 3072 0) (-2298 3066 3)"
+			"material" "JESSEV92/REALWORLDTEXTURES2/GROUND/CARPET_16"
+			"uaxis" "[0.894427 0 0.447214 66.2457] 4"
+			"vaxis" "[0 -1 0 64] 4"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "16"
+			"plane" "(2298 3066 3) (2304 3072 0) (2304 -3072 0)"
+			"material" "JESSEV92/REALWORLDTEXTURES2/GROUND/CARPET_16"
+			"uaxis" "[0.894427 0 -0.447214 189.754] 4"
+			"vaxis" "[0 -1 0 64] 4"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15"
+			"plane" "(-2298 3066 3) (-2304 3072 0) (2304 3072 0)"
+			"material" "JESSEV92/REALWORLDTEXTURES2/GROUND/CARPET_16"
+			"uaxis" "[1 0 0 128] 4"
+			"vaxis" "[0 -0.894427 0.447214 -18.0243] 4"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14"
+			"plane" "(2304 -3072 0) (-2304 -3072 0) (-2298 -3066 3)"
+			"material" "JESSEV92/REALWORLDTEXTURES2/GROUND/CARPET_16"
+			"uaxis" "[1 0 0 128] 4"
+			"vaxis" "[0 -0.894427 -0.447214 146.024] 4"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "13"
+			"plane" "(-2298 -3066 3) (-2298 3066 3) (2298 3066 3)"
+			"material" "JESSEV92/REALWORLDTEXTURES2/GROUND/CARPET_16"
+			"uaxis" "[1 0 0 128] 4"
+			"vaxis" "[0 -1 0 64.7669] 4"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "10"
+	"classname" "propper_skins"
+	"mat0" "jessev92/realworldtextures2/ground/carpet_16"
+	"mat1" "jessev92/realworldtextures2/ground/carpet_15"
+	"mat10" "jessev92/realworldtextures2/ground/carpet_06"
+	"mat11" "jessev92/realworldtextures2/ground/carpet_05"
+	"mat12" "jessev92/realworldtextures2/ground/carpet_04"
+	"mat13" "jessev92/realworldtextures2/ground/carpet_03"
+	"mat14" "jessev92/realworldtextures2/ground/carpet_02"
+	"mat2" "jessev92/realworldtextures2/ground/carpet_14"
+	"mat3" "jessev92/realworldtextures2/ground/carpet_13"
+	"mat4" "jessev92/realworldtextures2/ground/carpet_12"
+	"mat5" "jessev92/realworldtextures2/ground/carpet_11"
+	"mat6" "jessev92/realworldtextures2/ground/carpet_10"
+	"mat7" "jessev92/realworldtextures2/ground/carpet_09"
+	"mat8" "jessev92/realworldtextures2/ground/carpet_08"
+	"mat9" "jessev92/realworldtextures2/ground/carpet_07"
+	"my_model" "self"
+	"origin" "200.027 -49.6424 25"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordon
+{
+	"mins" "(-1024 -1024 -1024)"
+	"maxs" "(1024 1024 1024)"
+	"active" "0"
+}

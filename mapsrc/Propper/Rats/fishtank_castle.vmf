@@ -1,0 +1,744 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "6412"
+	"mapversion" "1"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "64"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "1"
+	"classname" "worldspawn"
+	"skyname" "sky_day01_01"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+}
+entity
+{
+	"id" "2"
+	"classname" "propper_model"
+	"autocenter" "0"
+	"concave" "1"
+	"disp_nowarp" "0"
+	"mass" "0.0"
+	"mat_nonormal" "0"
+	"materialpath" "models/jessev92/propper"
+	"modelname" "jessev92/propper/rat/fishtankcastle"
+	"origin" "-64 0 -96"
+	"physmodel" "castle"
+	"scale" "1.0"
+	"smoothangle" "45"
+	"smoothing" "1"
+	"snaptogrid" "0"
+	"sourcefolder" "I:/assets/propper"
+	"surfaceprop" "concrete_block"
+	"targetname" "castle"
+	"weldvertices" ".01"
+	solid
+	{
+		"id" "3"
+		side
+		{
+			"id" "66"
+			"plane" "(66 130 -96) (32 144 -96) (-2 130 -96)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[1 0 0 960] 0.25"
+			"vaxis" "[0 -1 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "65"
+			"plane" "(32 144 48) (66 130 48) (80 96 48)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001B"
+			"uaxis" "[1 0 0 384] 0.25"
+			"vaxis" "[0 -1 0 896] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "64"
+			"plane" "(32 144 -96) (66 130 -96) (66 130 48)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[1 0 0 1004.33] 0.140625"
+			"vaxis" "[0 0 -1 -682.556] 0.140625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "63"
+			"plane" "(66 130 -96) (80 96 -96) (80 96 48)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[0 1 0 -19.6667] 0.140625"
+			"vaxis" "[0 0 -1 -682.556] 0.140625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "62"
+			"plane" "(80 96 -96) (66 62 -96) (66 62 48)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[0 1 0 -19.6667] 0.140625"
+			"vaxis" "[0 0 -1 -682.556] 0.140625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "61"
+			"plane" "(66 62 -96) (32 48 -96) (32 48 48)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[1 0 0 1004.33] 0.140625"
+			"vaxis" "[0 0 -1 -682.556] 0.140625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "60"
+			"plane" "(32 48 -96) (-2 62 -96) (-2 62 48)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[1 0 0 960] 0.25"
+			"vaxis" "[0 0 -1 -640] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "59"
+			"plane" "(-2 62 -96) (-16 96 -96) (-16 96 48)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[0 1 0 -192] 0.25"
+			"vaxis" "[0 0 -1 -640] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "58"
+			"plane" "(-16 96 -96) (-2 130 -96) (-2 130 48)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[0 1 0 -19.6667] 0.140625"
+			"vaxis" "[0 0 -1 -682.556] 0.140625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "57"
+			"plane" "(-2 130 -96) (32 144 -96) (32 144 48)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[1 0 0 1004.33] 0.140625"
+			"vaxis" "[0 0 -1 -682.556] 0.140625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "4"
+		side
+		{
+			"id" "76"
+			"plane" "(66 -62 -96) (32 -48 -96) (-2 -62 -96)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[1 0 0 960] 0.25"
+			"vaxis" "[0 -1 0 448] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "75"
+			"plane" "(32 -48 48) (66 -62 48) (80 -96 48)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001B"
+			"uaxis" "[1 0 0 384] 0.25"
+			"vaxis" "[0 -1 0 128] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "74"
+			"plane" "(32 -48 -96) (66 -62 -96) (66 -62 48)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[1 0 0 1004.33] 0.140625"
+			"vaxis" "[0 0 -1 -682.556] 0.140625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "73"
+			"plane" "(66 -62 -96) (80 -96 -96) (80 -96 48)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[0 1 0 -19.6667] 0.140625"
+			"vaxis" "[0 0 -1 -682.556] 0.140625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "72"
+			"plane" "(80 -96 -96) (66 -130 -96) (66 -130 48)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[0 1 0 -19.6667] 0.140625"
+			"vaxis" "[0 0 -1 -682.556] 0.140625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "71"
+			"plane" "(66 -130 -96) (32 -144 -96) (32 -144 48)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[1 0 0 1004.33] 0.140625"
+			"vaxis" "[0 0 -1 -682.556] 0.140625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "70"
+			"plane" "(32 -144 -96) (-2 -130 -96) (-2 -130 48)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[1 0 0 1004.33] 0.140625"
+			"vaxis" "[0 0 -1 -682.556] 0.140625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "69"
+			"plane" "(-2 -130 -96) (-16 -96 -96) (-16 -96 48)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[0 1 0 -19.6667] 0.140625"
+			"vaxis" "[0 0 -1 -682.556] 0.140625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "68"
+			"plane" "(-16 -96 -96) (-2 -62 -96) (-2 -62 48)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[0 1 0 -448] 0.25"
+			"vaxis" "[0 0 -1 -640] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "67"
+			"plane" "(-2 -62 -96) (32 -48 -96) (32 -48 48)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[1 0 0 960] 0.25"
+			"vaxis" "[0 0 -1 -640] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "5"
+		side
+		{
+			"id" "82"
+			"plane" "(-160 -96 32) (-160 96 32) (32 96 32)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001B"
+			"uaxis" "[1 0 0 768] 0.25"
+			"vaxis" "[0 -1 0 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "81"
+			"plane" "(-160 96 -96) (-160 -96 -96) (32 -96 -96)"
+			"material" "LOSTCOAST/NATURE/SANDFLOOR007C"
+			"uaxis" "[1 0 0 128] 0.25"
+			"vaxis" "[0 -1 0 384] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "80"
+			"plane" "(-160 -96 -96) (-160 96 -96) (-160 96 32)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[0 1 0 -427] 0.125"
+			"vaxis" "[0 0 -1 -768] 0.125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "79"
+			"plane" "(32 96 -96) (32 -96 -96) (32 -96 32)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[0 1 0 -427] 0.125"
+			"vaxis" "[0 0 -1 -768] 0.125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "78"
+			"plane" "(-160 96 -96) (32 96 -96) (32 96 32)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[1 0 0 597] 0.125"
+			"vaxis" "[0 0 -1 -768] 0.125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "77"
+			"plane" "(32 -96 -96) (-160 -96 -96) (-160 -96 32)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[1 0 0 597] 0.125"
+			"vaxis" "[0 0 -1 -768] 0.125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "6"
+		side
+		{
+			"id" "92"
+			"plane" "(-30 34 32) (-64 48 32) (-98 34 32)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[1 0 0 320] 0.25"
+			"vaxis" "[0 -1 0 832] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "91"
+			"plane" "(-64 48 96) (-30 34 96) (-16 0 96)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001B"
+			"uaxis" "[1 0 0 768] 0.25"
+			"vaxis" "[0 -1 0 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "90"
+			"plane" "(-64 48 32) (-30 34 32) (-30 34 96)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[1 0 0 663] 0.140625"
+			"vaxis" "[0 0 -1 -796.333] 0.140625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "89"
+			"plane" "(-30 34 32) (-16 0 32) (-16 0 96)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[0 1 0 -361] 0.140625"
+			"vaxis" "[0 0 -1 -796.333] 0.140625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "88"
+			"plane" "(-16 0 32) (-30 -34 32) (-30 -34 96)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[0 1 0 -361] 0.140625"
+			"vaxis" "[0 0 -1 -796.333] 0.140625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "87"
+			"plane" "(-30 -34 32) (-64 -48 32) (-64 -48 96)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[1 0 0 663] 0.140625"
+			"vaxis" "[0 0 -1 -796.333] 0.140625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "86"
+			"plane" "(-64 -48 32) (-98 -34 32) (-98 -34 96)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[1 0 0 320] 0.25"
+			"vaxis" "[0 0 -1 -128] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "85"
+			"plane" "(-98 -34 32) (-112 0 32) (-112 0 96)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[0 1 0 -832] 0.25"
+			"vaxis" "[0 0 -1 -128] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "84"
+			"plane" "(-112 0 32) (-98 34 32) (-98 34 96)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[0 1 0 -361] 0.140625"
+			"vaxis" "[0 0 -1 -796.333] 0.140625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "83"
+			"plane" "(-98 34 32) (-64 48 32) (-64 48 96)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[1 0 0 663] 0.140625"
+			"vaxis" "[0 0 -1 -796.333] 0.140625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "7"
+		side
+		{
+			"id" "102"
+			"plane" "(-126 130 -96) (-160 144 -96) (-194 130 -96)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[1 0 0 704] 0.25"
+			"vaxis" "[0 -1 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "101"
+			"plane" "(-160 144 48) (-126 130 48) (-112 96 48)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001B"
+			"uaxis" "[1 0 0 128] 0.25"
+			"vaxis" "[0 -1 0 896] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "100"
+			"plane" "(-160 144 -96) (-126 130 -96) (-126 130 48)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[1 0 0 1004.33] 0.140625"
+			"vaxis" "[0 0 -1 -682.556] 0.140625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "99"
+			"plane" "(-126 130 -96) (-112 96 -96) (-112 96 48)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[0 1 0 -19.6667] 0.140625"
+			"vaxis" "[0 0 -1 -682.556] 0.140625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "98"
+			"plane" "(-112 96 -96) (-126 62 -96) (-126 62 48)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[0 1 0 -192] 0.25"
+			"vaxis" "[0 0 -1 -640] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "97"
+			"plane" "(-126 62 -96) (-160 48 -96) (-160 48 48)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[1 0 0 704] 0.25"
+			"vaxis" "[0 0 -1 -640] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "96"
+			"plane" "(-160 48 -96) (-194 62 -96) (-194 62 48)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[1 0 0 1004.33] 0.140625"
+			"vaxis" "[0 0 -1 -682.556] 0.140625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "95"
+			"plane" "(-194 62 -96) (-208 96 -96) (-208 96 48)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[0 1 0 -19.6667] 0.140625"
+			"vaxis" "[0 0 -1 -682.556] 0.140625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "94"
+			"plane" "(-208 96 -96) (-194 130 -96) (-194 130 48)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[0 1 0 -19.6667] 0.140625"
+			"vaxis" "[0 0 -1 -682.556] 0.140625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "93"
+			"plane" "(-194 130 -96) (-160 144 -96) (-160 144 48)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[1 0 0 1004.33] 0.140625"
+			"vaxis" "[0 0 -1 -682.556] 0.140625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "8"
+		side
+		{
+			"id" "112"
+			"plane" "(-126 -62 -96) (-160 -48 -96) (-194 -62 -96)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[1 0 0 704] 0.25"
+			"vaxis" "[0 -1 0 448] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "111"
+			"plane" "(-160 -48 48) (-126 -62 48) (-112 -96 48)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001B"
+			"uaxis" "[1 0 0 128] 0.25"
+			"vaxis" "[0 -1 0 128] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "110"
+			"plane" "(-160 -48 -96) (-126 -62 -96) (-126 -62 48)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[1 0 0 704] 0.25"
+			"vaxis" "[0 0 -1 -640] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "109"
+			"plane" "(-126 -62 -96) (-112 -96 -96) (-112 -96 48)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[0 1 0 -448] 0.25"
+			"vaxis" "[0 0 -1 -640] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "108"
+			"plane" "(-112 -96 -96) (-126 -130 -96) (-126 -130 48)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[0 1 0 -19.6667] 0.140625"
+			"vaxis" "[0 0 -1 -682.556] 0.140625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "107"
+			"plane" "(-126 -130 -96) (-160 -144 -96) (-160 -144 48)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[1 0 0 1004.33] 0.140625"
+			"vaxis" "[0 0 -1 -682.556] 0.140625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "106"
+			"plane" "(-160 -144 -96) (-194 -130 -96) (-194 -130 48)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[1 0 0 1004.33] 0.140625"
+			"vaxis" "[0 0 -1 -682.556] 0.140625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "105"
+			"plane" "(-194 -130 -96) (-208 -96 -96) (-208 -96 48)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[0 1 0 -19.6667] 0.140625"
+			"vaxis" "[0 0 -1 -682.556] 0.140625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "104"
+			"plane" "(-208 -96 -96) (-194 -62 -96) (-194 -62 48)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[0 1 0 -19.6667] 0.140625"
+			"vaxis" "[0 0 -1 -682.556] 0.140625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "103"
+			"plane" "(-194 -62 -96) (-160 -48 -96) (-160 -48 48)"
+			"material" "LOSTCOAST/MONASTERY/MONASTERY_EXTERIOR001A"
+			"uaxis" "[1 0 0 1004.33] 0.140625"
+			"vaxis" "[0 0 -1 -682.556] 0.140625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordon
+{
+	"mins" "(-1024 -1024 -1024)"
+	"maxs" "(1024 1024 1024)"
+	"active" "0"
+}
