@@ -17,4 +17,4 @@ I will be notified of any released content using the content within so that I ca
 
 You will not re-upload, re-host, re-release, or re-distribute this archive, in part or in whole, to any other site on the internet, with or without my permission.
 
-I retain the right to change this license as I see fit and makesaid changes retroactively active.
+I retain the right to change this license as I see fit and make said changes retroactively active.
